@@ -1,0 +1,34 @@
+{
+  "name": "restaurantmanagementsystem",
+  "version": "1.0.0",
+  "description": "Restaurant Management System",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js",
+    "start:dev": "nodemon app.js"
+  },
+  "author": "Krishna Vishwanatham",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongodb-session": "^2.4.1",
+    "csurf": "^1.11.0",
+    "ejs": "^2.7.4",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.17.1",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.2",
+    "mysql2": "^2.2.5",
+    "pug": "^2.0.3",
+    "sequelize": "^6.3.5"
+  },
+  "keywords": [
+    "nodemon"
+  ]
+}
