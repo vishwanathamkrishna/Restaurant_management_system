@@ -8,7 +8,7 @@ This web application has the ability to maintain a session of the user and creat
 
 ### Core Technlogies used:
 
-**1. Front-end :  HTML5, CSS3
-**2. Backend : NodeJS
-**3. Databases : MongoDB
+** 1. Front-end :  HTML5, CSS3
+** 2. Backend : NodeJS
+** 3. Databases : MongoDB
 
