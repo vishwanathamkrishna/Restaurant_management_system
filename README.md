@@ -1,6 +1,6 @@
 # Restaurant_management_system
 
-### - Introduction:
+### Introduction:
 
 Aim of the project is to create a web application with the user interface to view and order the food items. This helps the restaurant management team by improving their business with the online orders. The food items are displayed in the application based on the availability. This application also helps restaurant workers in reducing the manual work like noting down every order through phone call or by any other medium.
 
