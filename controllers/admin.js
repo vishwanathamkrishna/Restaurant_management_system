@@ -1,5 +1,8 @@
+// Importing product model to use it's schema and perform db operations
 const Product = require('../models/product');
 
+
+// getAddProduct function to render add product form page. 
 exports.getAddProduct = (req, res, next) => {
   if (!req.session.isLoggedIn) {
     return res.redirect('/login');
@@ -11,6 +14,7 @@ exports.getAddProduct = (req, res, next) => {
   });
 };
 
+// postAddProduct function to post the product data to the database from the form.
 exports.postAddProduct = (req, res, next) => {
   const title = req.body.title;
   const imageUrl = req.body.imageUrl;
